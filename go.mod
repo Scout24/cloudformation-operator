@@ -4,36 +4,27 @@ go 1.12
 
 require (
 	github.com/alecthomas/kingpin v2.2.6+incompatible
-	github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc
-	github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf
+	github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc // indirect
+	github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf // indirect
 	github.com/aws/aws-sdk-go v1.13.48
-	github.com/davecgh/go-spew v1.1.0
-	github.com/ghodss/yaml v1.0.0
-	github.com/go-ini/ini v1.36.0
-	github.com/gogo/protobuf v1.0.0
-	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
-	github.com/golang/protobuf v1.1.0
-	github.com/google/gofuzz v0.0.0-20170612174753-24818f796faf
-	github.com/googleapis/gnostic v0.1.0
-	github.com/hashicorp/golang-lru v0.0.0-20180201235237-0fb14efe8c47
-	github.com/howeyc/gopass v0.0.0-20170109162249-bf9dde6d0d2c
-	github.com/imdario/mergo v0.3.4
-	github.com/jmespath/go-jmespath v0.0.0-20160202185014-0b12d6b521d8
-	github.com/json-iterator/go v0.0.0-20180315132816-ca39e5af3ece
+	github.com/go-ini/ini v1.36.0 // indirect
+	github.com/gogo/protobuf v1.0.0 // indirect
+	github.com/googleapis/gnostic v0.1.0 // indirect
+	github.com/imdario/mergo v0.3.4 // indirect
+	github.com/jmespath/go-jmespath v0.0.0-20160202185014-0b12d6b521d8 // indirect
 	github.com/linki/cloudformation-operator v0.4.0
-	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
-	github.com/modern-go/reflect2 v0.0.0-20180228065516-1df9eeb2bb81
-	github.com/operator-framework/operator-sdk v0.0.0-20180514232524-8aeaff32fc9c
+	github.com/operator-framework/operator-sdk v0.0.7
+	github.com/prometheus/client_golang v0.9.2 // indirect
 	github.com/sirupsen/logrus v1.0.5
-	github.com/spf13/pflag v1.0.1
-	golang.org/x/crypto v0.0.0-20180515001509-1a580b3eff78
-	golang.org/x/net v0.0.0-20180511174649-2491c5de3490
-	golang.org/x/sys v0.0.0-20180514143608-7c87d13f8e83
-	golang.org/x/text v0.3.0
-	golang.org/x/time v0.0.0-20180412165947-fbb02b2291d2
-	gopkg.in/inf.v0 v0.9.1
-	gopkg.in/yaml.v2 v2.2.1
-	k8s.io/api v0.0.0-20180514222526-fbc8bec270ad
-	k8s.io/apimachinery v0.0.0-20180417142332-01bc873149a1
-	k8s.io/client-go v7.0.0+incompatible
+	github.com/smartystreets/goconvey v0.0.0-20190330032615-68dc04aab96a // indirect
+	golang.org/x/oauth2 v0.0.0-20190402181905-9f3314589c9a // indirect
+	golang.org/x/time v0.0.0-20180412165947-fbb02b2291d2 // indirect
+	gopkg.in/airbrake/gobrake.v2 v2.0.9 // indirect
+	gopkg.in/gemnasium/logrus-airbrake-hook.v2 v2.1.2 // indirect
+	gopkg.in/inf.v0 v0.9.1 // indirect
+	gopkg.in/ini.v1 v1.42.0 // indirect
+	k8s.io/api v0.0.0-20190503110853-61630f889b3c // indirect
+	k8s.io/apimachinery v0.0.0-20190502092502-a44ef629a3c9
+	k8s.io/client-go v11.0.0+incompatible // indirect
+	k8s.io/utils v0.0.0-20190506122338-8fab8cb257d5 // indirect
 )
